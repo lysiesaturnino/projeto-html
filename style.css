@@ -1,0 +1,137 @@
+body {
+font-family: 'Segoe UI', Arial, sans-serif;
+margin: 0;
+background: #f5f7fa;
+color: #333;
+}
+
+/* MENU */
+header {
+background: #ffffff;
+box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+nav {
+display: flex;
+justify-content: center;
+padding: 15px;
+gap: 30px;
+}
+
+nav a {
+text-decoration: none;
+color: #555;
+font-weight: 500;
+transition: 0.3s;
+}
+
+nav a:hover {
+color: #0077ff;
+}
+
+/* BANNER */
+.banner {
+background: linear-gradient(135deg, #89CFF0, #5DADE2);
+color: white;
+text-align: center;
+padding: 60px 20px;
+}
+
+h1 {
+margin: 0;
+font-size: 32px;
+}
+
+h2 {
+margin-top: 10px;
+font-weight: 300;
+}
+
+/* CONTEÚDO */
+section {
+max-width: 900px;
+margin: auto;
+padding: 30px 20px;
+}
+
+p {
+line-height: 1.7;
+margin-bottom: 20px;
+}
+
+/* LISTAS */
+ul, ol, dl {
+background: white;
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+margin-bottom: 20px;
+}
+
+/* IMAGENS */
+img {
+border-radius: 10px;
+margin: 10px;
+transition: 0.3s;
+}
+
+img:hover {
+transform: scale(1.05);
+}
+
+/* TABELA */
+table {
+width: 100%;
+background: white;
+border-collapse: collapse;
+margin-bottom: 20px;
+border-radius: 10px;
+overflow: hidden;
+}
+
+th {
+background: #0077ff;
+color: white;
+padding: 10px;
+}
+
+td {
+padding: 10px;
+text-align: center;
+}
+
+/* FORMULÁRIO */
+form {
+background: white;
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+input, select, textarea {
+width: 100%;
+padding: 8px;
+margin-bottom: 10px;
+border-radius: 6px;
+border: 1px solid #ccc;
+}
+
+button {
+padding: 10px 15px;
+border: none;
+border-radius: 6px;
+background: #0077ff;
+color: white;
+cursor: pointer;
+}
+
+button:hover {
+background: #005fcc;
+}
+
+/* FOOTER */
+footer {
+text-align: center;
+padding: 20px;
+color: #777;
+}
